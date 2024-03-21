@@ -1,0 +1,22 @@
+{
+  "name": "ysp/holiday",
+  "license": "MIT",
+  "description": "查询是否节假日 农历 节气 中国 2倍工资 3倍工资",
+  "authors": [
+    {
+      "name": "ysp",
+      "email": "1037547965@qq.com"
+    }
+  ],
+  "require": {
+    "php": "^5.6|7.*|8.*",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-iconv": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ysp\\": "src/"
+    }
+  }
+}
